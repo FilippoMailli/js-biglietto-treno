@@ -1,0 +1,24 @@
+#container {
+    height: 100vh;
+    display: none;
+}
+
+.centra {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 150px;
+    width: 300px;
+}
+
+#container.visible {
+    display: block;
+}
+
+span {
+    font-weight: bold;
+    text-decoration: underline;
+}
